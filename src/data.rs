@@ -37,6 +37,13 @@ pub fn fetch_products(_settings: &Settings) -> Vec<Product> {
             price: 11.99,
             description: "A simple USB stick of average size and decent price.".to_string(),
             image: "/usbstick.jpg".to_string()
+        },
+        Product {
+            id: 6,
+            name: "Simple Gas-powered Stick".to_string(),
+            price: 11.99,
+            description: "A simple gas-powered stick of average size and decent price.".to_string(),
+            image: "/gas-powered-stick.jpg".to_string()
         }
     ]
 }
